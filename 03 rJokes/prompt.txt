@@ -1,0 +1,12 @@
+In the csv file, you can find a list of jokes. I want you to select only those ones where the joke is based on a word that has these characteristics:
+
+- In the context of the joke, the word takes two different meanings.
+- It is spelled exactly in same way in both meanings: discard jokes base on homophones.
+- It's a one single word - no composite words.
+- It's a word present in the dictionary.
+
+For each sentence, then I need the you create two serious (without humor) sentences with the word at the center of the joke: one where the word takes the first meaning, and one where it takes the second meaning.
+
+The result of the computation must be returned in a format like this, to fit a CSV file separated by a semicolon:
+
+sentence; word; explanation; first new sentence; second new sentence

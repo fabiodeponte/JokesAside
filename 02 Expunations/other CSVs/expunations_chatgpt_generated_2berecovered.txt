@@ -1,0 +1,325 @@
+
+
+
+Hi, repair the csv fields below, according to this scheme:
+
+CORRUPTED LINE: hom_1628stopstopHe decided to stop eating junk food for health reasons.The traffic light will stop the cars at the intersection.
+RESTORED LINE: hom_1628;stop;stop;He decided to stop eating junk food for health reasons.;The traffic light will stop the cars at the intersection.
+
+CORRUPTED LINE:hom_2014soaked it insoaked it inThe sponge soaked it in water.She soaked it in the beautiful scenery.
+RESTORED LINE: hom_2014;soaked it in;soaked it in;The sponge soaked it in water.;She soaked it in the beautiful scenery.
+
+CORRUPTED LINE:hom_1391culturedculturedHe is a well-cultured individual with a deep appreciation for the arts.The lab technician cultured the bacteria overnight to observe their growth.
+hom_1391;cultured;cultured;He is a well-cultured individual with a deep appreciation for the arts.;The lab technician cultured the bacteria overnight to observe their growth.
+
+
+Fields are: 
+ID;expression1;expression2;sentence1;sentence2
+
+HERE IS THE CORRUPTED FILE
+het_1184maneuvermanureThe skilled pilot had to maneuver the airplane carefully during the storm.Farmers spread manure on the fields to enrich the soil.
+het_528rectifiedrectumThe technician rectified the network issue.The doctor examined the patient's rectum.
+hom_383for a songfor a songThey bought the new house for a song, saving a significant amount of money.The pop singer offered his latest track for a new house.
+hom_1263buzzbuzzThe marketing team worked hard to create a buzz around the new product launch.After a few beers, he started to feel a light buzz.
+hom_1040developingdeveloping"The company is developing new strategies to expand its market reach.""The photographer is developing the exposed film in the darkroom."
+hom_339keep it inkeep it inShe used a special treatment to keep it in and prevent her hair from falling out.He decided to keep it in a secure box to ensure it wouldn't get lost.
+hom_1989remarkedre-markedThe teacher remarked on the student's progress.The assignment was re-marked to ensure accuracy.
+hom_990rowsroseThe congregation sat in neat rows during the service.The gardener planted roses in beautiful rows along the fence.
+het_1337cornilycornilyShe delivered her lines cornily, eliciting laughter.The cornily was harvested after the summer.
+het_1475hailhellPeople hail the new leader for his vision.When the project failed, it was like all hell broke loose.
+hom_1567stridestrideHe took long strides during the marathon.She took the marathon date change in stride.
+hom_1607accidentalaccidentalThe musician used several accidentals in the piece.He had an accidental fall that required hospitalization.
+hom_1545picking uppicking upAfter the surgery, he is picking up nicely.The vacuum cleaner is very efficient at picking up dirt.
+het_810censussensesThe government conducts a census every ten years to collect demographic dataAfter the storm, he began to lose his senses and struggled to remain conscious.
+hom_1036projectedprojectedTom projected his ideas confidently during the meeting.The film was projected onto the large screen for all audience members to see.
+het_1216tongue in chictongue in cheekThe fashion show was presented with tongue in chic, highlighting the latest trends.He made the comment with tongue in cheek, not to be taken seriously.
+het_112rogaineregainThe bald man used Rogaine to stimulate hair growth.The bald man worked hard to regain his confidence after the setback.
+hom_572full platefull plateShe has a full plate with work lately.The dinner plate was a full plate of delicious food.
+hom_852touchtouchThe therapist's touch was firm and professional.Her presentation included a nice touch that impressed everyone.
+het_1101warshipworshipThe soldiers boarded the warship before heading to battle.The chaplain led the soldiers in their morning worship.
+hom_1242screamsscreamsThe baby screams loudly whenever she is upset.The livestock screams, indicating it has not been butchered yet.
+het_1745hueHughThe artist mixed various hues to create a vibrant painting.Hugh went to the art gallery to see the new exhibition.
+het_835safe sexsafe sexHe always practiced safe sex to prevent sexually transmitted infections.They planned their safe sex carefully to avoid getting caught in the act.
+hom_2036making the cutmaking the cutAfter weeks of training, she finally made the cut and qualified for the championship.The tailor explained that making the cut precisely is essential for a well-fitted suit.
+hom_208up in armsup in armsThe citizens were up in arms against the new regulation.During the assembly, the students were up in arms to answer the teacher's question.
+hom_2249burn the candle on both endsburn the candle on both endsShe tends to burn the candle on both ends, often working late into the night.If you burn the candle on both ends, it will burn out more quickly.
+het_1466rapid transitrabbit transitThe city invested heavily in rapid transit to reduce traffic congestion.The rabbits used rabbit transit to commute to their burrows every morning.
+het_1532bailbaleShe had to bail water out of the sinking boat.He stacked the hay into a large bale.
+hom_2033scotchscotchHe enjoys a glass of scotch every evening after work.She decided to scotch the rumors to maintain her reputation.
+hom_2164hanginghangingShe kept the audience hanging by not revealing the story's conclusion.The chandelier is hanging elegantly from the ceiling.
+het_344deeddeedHe signed the deed to officially own the property.Performing a good deed can make a significant difference in someone's life.
+het_388bellicosevaricoseHis bellicose attitude made him unpopular among his peers.She was concerned about the appearance of her varicose veins.
+hom_1397striking resemblancestriking resemblanceThe two bowlers have a striking resemblance, making them look almost identical.In the bowling league, achieving a striking resemblance meant scoring a strike by knocking down all the pins in one throw.
+het_520philatelyflatteryHis passion for philately led him to travel around the world to collect rare stamps.She appreciated his flattery and felt valued in the conversation.
+het_158yammeredyamThe lecturer yammered on about the complexities of quantum physics.She added yams to the casserole for extra sweetness.
+het_1731follow the leaderswallow the leader"In the workshop, participants were encouraged to follow the leader to ensure consistency.""During the ceremony, members were instructed to swallow the leader as part of the ritual."
+hom_636reliefreliefThe ancient wall featured an intricate relief depicting various deities.After submitting his project, he felt an immense sense of relief.
+het_1325namenamePlease write your name at the top of the document.Her name is renowned for her philanthropic efforts.
+hom_1990kicking myselfkicking myselfI am kicking myself for not taking karate lessons earlier.During practice, I am kicking myself to perfect my karate moves.
+hom_2saving placesaving placeI keep my money in a saving place at the bankThe rescue team established a saving place for stranded hikers.
+hom_1377drift apartdrift apartAfter many years together, the couple began to drift apart.The two boats started to drift apart in the strong current.
+hom_1799high volumehigh volumeHigh volume manufacturers produce goods in large quantities.The speakers have a high volume, making them loud.
+hom_812draw their last breathdraw their last breathAfter battling the illness for years, he began to draw his last breath.The artist chose to draw their last breath in the final panel of the comic series.
+het_1351worstwurstThe weather today is the worst we've had all year.We decided to grill some wurst for the barbecue.
+het_1653mistmissedThe morning was filled with a thick mist that obscured the landscape.She missed the train by just a few seconds.
+het_1693busybuzzyThe beekeepers are busy maintaining the hives.The garden was buzzy with the sound of bees.
+hom_226alarmedalarmedShe was alarmed by the sudden noise.They have alarmed their home with the new security system.
+hom_11lickedlickedAfter a long game, the team was finally licked by their rivals.She licked the envelope before sealing it.
+het_1678moot pointmute pointDiscussing the new policy is a moot point since the decision has already been made.Her inability to speak made the discussion feel like a mute point.
+hom_1367webwebDucks rely on their web for swimming.She searched for information on the web.
+hom_85stand correctedstand correctedI was mistaken about the deadline, so I stand corrected.After the orthopedist's treatment, he can now stand corrected comfortably.
+het_416Shades of GreyShades of GreyThe artist used various shades of grey to create a realistic portrait.The decision was complex and full of shades of grey.
+hom_1234run downrun downShe felt run down after working tirelessly all day.He was run down by a moving train while walking on the tracks.
+het_928wattwhatThe refrigerator operates at 200 watts.They couldn't determine what was causing the issue.
+hom_381drivedriveThe golfer executed a powerful drive down the fairway.After facing many challenges, he began to lose his drive for advancing his career.
+hom_2144gunsgunsThe soldier carefully loaded his guns before the mission.The veteran coach is one of the old guns on the team, bringing years of experience.
+het_434force4thThe force of gravity keeps us grounded.She achieved a 4th place finish in the competition.
+hom_686skipskipThey decided to skip school and not attend classes.During recess, they like to skip with their jump ropes.
+hom_1235bargainbargainShe found an amazing bargain on her new phone.They had to bargain with the seller to lower the price.
+hom_2093run outrun outWe need to hurry, or our time will run out.The athlete decided to run out of the stadium after the event.
+hom_1616ramblingramblingDuring the meeting, she was rambling about her weekend plans.They went rambling through the countryside on a sunny day.
+hom_399drawdrawThe race ended in a draw.She likes to draw detailed pictures.
+hom_1083looking uplooking upThe economy has been looking up since last quarter.He was looking up at the airplane as it soared through the sky.
+hom_1395scalesscalesThe fish's scales glistened in the sunlight.She practiced her scales on the piano for hours.
+hom_946driving ambitiondriving ambitionShe has a lot of driving ambition to achieve her career goals.He has a lot of driving ambition and is eager to obtain his driver's license.
+hom_125possessivepossessiveShe became very possessive when her partner spent time with friends.In English, the possessive noun shows ownership, such as in "the teacher's book."
+hom_229boils down toboils down toIn the negotiation, it boils down to finding a mutually beneficial agreement.She needs to boil down the eggs before adding them to the salad.
+het_588happyhoppyRabbits generally lead a happy life full of joy and contentment.The beer was very hoppy, with a strong bitterness and floral aroma.
+hom_1435advanceadvance"She received an advance on her salary.""He will advance the project timeline."
+hom_156bombshellbombshellThe model was considered a bombshell by the fashion industry.The air force deployed a bombshell in the operation.
+hom_1532richrichShe became rich after investing in the stock market.The chocolate cake was so rich that everyone wanted a second slice.
+het_1390ariaareaThe soprano delivered a captivating aria in the opera performance.They were operating in the right area to ensure the project's success.
+hom_954linelineHe couldn't answer the call because there was no service on the line.The fish got tangled in the fishing line.
+hom_1978live on the edgelive on the edgeHe decided to live on the edge by investing all his savings in the volatile stock market.They chose to live on the edge of the cliffs to enjoy the breathtaking ocean views.
+het_1657coupcooedThe military executed a coup to seize control of the government.The dove cooed softly in the early morning.
+hom_1130know the drillknow the drill"Before the presentation, make sure you know the drill.""After several visits, she knows the drill used by her dentist."
+het_756corporalcarpalThe corporal supervised the troops during the morning drill.She was diagnosed with carpal tunnel syndrome after several weeks of typing.
+het_101seriouslysiriusTom spoke seriously about his future plans.Sirius is the brightest star in the night sky.
+het_1478youthlessuselessMany old people may feel youthless as they grow older.After the software update, the previous version became completely useless.
+het_1117buttebuttThe hikers climbed to the top of the butte to enjoy the panoramic views.He fell and injured his butt while skiing down the slope.
+hom_881trackstracksThe train runs smoothly on its tracks during the journey.The detective followed the tracks in the mud to find the suspect.
+hom_2239high maintenancehigh maintenanceThe new software system is highly maintenance, requiring constant updates and support.The skyscraper demands high maintenance to ensure its structural integrity at such great heights.
+het_1128breakbrakeHe decided to take a break after working for hours.He pressed the brake to stop the car.
+het_592bowboughAfter the performance, the actor took a bow to acknowledge the audience's applause.The bough of the old oak tree swayed in the wind.
+hom_2175on the same wavelengthon the same wavelengthBecause they are on the same wavelength, the team worked together seamlessly.The engineers adjusted the antenna to the same wavelength used for the broadcast.
+het_908fabricationfabricationThe fabrication of the new suit required high-quality materials.His excuse for being late was nothing but a fabrication.
+hom_903booming businessbooming businessThe technology sector is a booming business with increasing investments.The fireworks company is a booming business, as their products frequently create loud explosions.
+het_461GreecegreaseGreece is renowned for its ancient temples and vibrant culture.The mechanic added extra grease to the engine to ensure it runs smoothly.
+het_704dyedieShe decided to dye her hair a vibrant red.Unfortunately, without proper care, the plant will die.
+het_1204allusionillusionHe made an allusion to her previous work in his speech.The magician created a stunning illusion that amazed the audience.
+hom_1870backed outbacked outI backed out of the appointment.The chiropractor adjusted my backed out.
+het_116redactionredactionThe author performed a redaction on the manuscript to remove sensitive information.The editor joined a redaction program to lose weight.
+hom_1684Hell hath no fury like a woman scornedHell hath no fury like a woman scorned"Hell hath no fury like a woman scorned" signifies that a betrayed woman can be extraordinarily angry.After the argument, she recalled that "Hell hath no fury like a woman scorned" and decided to stand her ground.
+hom_871bundlebundleThe farmer gathered the hay into a bundle.She managed to make a significant bundle from her freelance work.
+hom_1339make his markmake his markHe worked diligently to make his mark in the industry.He used a permanent marker to make his mark on the whiteboard.
+het_886little patientslittle patienceThe pediatrician treats little patientsShe has little patience when dealing with delays.
+het_681deardeerShe is a person I hold very dear.A deer wandered through the garden yesterday.
+het_348perksperksA strong cup of coffee can perk you up on a sleepy morning.I turned on the computer, and it perks without any issues.
+hom_473dummiesdummiesShe was frustrated with her coworkers, feeling they were all dummies.The store window was decorated with stylish dummies dressed for the season.
+het_1063putting itpudding itShe is putting it clearly to explain her idea.He is pudding it with tapioca for dessert.
+hom_203poppopThe band plays pop music every Friday night.The balloon made a loud pop when it touched the needle.
+het_189refluxesreflexesThe refluxes in the distillation column were carefully monitored to ensure product purity.Her quick reflexes saved him from the falling object.
+hom_1678beats mebeats meBeats me why anyone would want to be a masochist.They threaten to beat me if I don't comply.
+hom_796light workloadlight workloadThe employees were given a light workload this week.The light workload involved assembling lamps.
+het_1442limelightlimeThe celebrity was always in the limelight.The bartender added a slice of lime to the drink.
+hom_223stillstillShe remained still during the examination to avoid detection.The whiskey was stored in a copper still to ensure proper distillation.
+het_1526loam rangerlone rangerA loam ranger studies the composition and quality of soil samples.The lone ranger embarked on his journey alone, seeking adventure in the wilderness.
+hom_2125pin droppin dropThe meeting was so silent that you could hear a pin drop.In the bowling alley, a pin drop signaled the end of the player's turn.
+hom_1471foldedfoldedThe online origami store folded after struggling financially.She folded the paper to create an intricate origami design.
+hom_2187take stepstake stepsShe decided to take steps to improve her health by exercising regularly.He prefers to take steps instead of using the elevator to reach the 10th floor.
+het_1773circular sawscircular soresThe carpenter used circular saws to cut the wood.She had several circular sores on her arm.
+het_347keykeyI need a key to open the door.The song is in the key of C major.
+hom_1329stationerystationaryShe bought new stationery for her office.The car remained stationary at the traffic light.
+het_242emotionalemulsionalPhotographers often deal with emotional challenges in their work.Chemistry labs must manage emulsional stability during film processing.
+het_379roomersrumorsThe college dormitory has many roomers who pay rent each semester.Rumors about the dormitory explosion spread quickly across campus.
+het_482wood workerwould workerThe wood worker crafted a beautiful table.He is a would worker, always ready to take on any job.
+het_11archarchShe delivered her remarks in an arch manner.The arch of her foot provided excellent support while walking.
+het_1340thrown awaythrone awayShe decided to throw the old clothes away.The king chose to throne away from his duties.
+hom_1833sage advicesage adviceHe offered sage advice to those seeking wisdom.She followed his sage advice to use more sage in the stuffing.
+hom_1358runningrunningThe engine has been running for three years without stopping.She has been running every morning for three years.
+het_1486guerrillagorillaThe guerrilla fighters employed unconventional tactics to challenge the established army.The gorilla at the zoo was known for its impressive strength and intelligence.
+het_1342amplyampThe garden was amply supplied with water.The electrician measured an amp of current.
+hom_1231hitting it offhitting it offThe new teammates quickly hit it off and became close friends.During practice, the batter was hitting it off the tee with impressive strength.
+hom_135riperipeFruit has to become ripe before it is ready to eat.They lived to a ripe old age.
+hom_1304out of commissionout of commissionThe elevator is out of commission due to a mechanical failure.After many years, the old salesman finally went out of commission and retired.
+het_844porepoorShe carefully cleaned the pores on her face before applying makeup.His excuse for being late was a poor one.
+hom_1284jerkjerkThe car stopped with a jerk.The jerk got out.
+hom_825turn intoturn intoThe magician can turn into a rabbit during his act.She decided to turn into the new pharmacy downtown.
+het_1561shearsheerThe farmer decided to shear the sheep early in the morning.The mountain was a sheer cliff that was difficult to scale.
+het_913political graftpolitical graphedThe newspaper exposed the politician for engaging in political graft.The researcher presented the data on the political graphed in the annual report.
+hom_2015sound business practicessound business practicesThe company succeeded by implementing sound business practices.The music store owner prioritized sound business practices to provide excellent audio products.
+hom_1342last resortlast resortAfter exhausting all other options, negotiating became their last resort.They booked a stay at the seaside last resort for their family vacation.
+het_69windowwindowI need to clean the window to remove the smudges.She looked out of her window to watch the sunset.
+het_724on the lamon the lambAfter stealing the diamond, the thief was on the lam to avoid capture.The shepherd was on the lamb, tending to the newborn sheep.
+het_609viseviceShe tightened the vise on the workbench to secure the wood.His habit was considered a serious vice by the community.
+hom_1501animatedanimatedThe film was beautifully animated, capturing every detail.She has an animated personality that lights up the room.
+het_1303crankcrankHe was crank all morning.He pulled the crank to start the engine.
+het_1201serialcerealThe computer uses serial communication for data transfer.She had a bowl of cereal for breakfast.
+het_216coupcoopThe general planned a military coup to overthrow the government.The farmer built a new coop to house his chickens.
+hom_592plagiarismplagiarism"The author was found guilty of plagiarism after submitting identical sections of another's work.""In academic circles, plagiarism is considered a severe violation of integrity."
+het_902shellfishselfishThe chef prepared a delicious shellfish stew for the customers.Her selfish behavior made it difficult for her team to collaborate effectively.
+hom_649decreaseddecreasedThe number of old laundry workers has decreased over the years.The old laundry workers' shirts have a decreased, crease-free appearance.
+hom_196get the pointget the pointI explained the concept clearly so everyone would get the point.During the match, she was able to get the point with her final thrust.
+het_619salesailThe store is having a big sale this weekend.He decided to sail across the Atlantic Ocean.
+hom_1018turn upturn upThe guests are expected to turn up at the venue by 8 PM.She decided to turn up her sleeves before beginning the exercise routine.
+hom_2127under the weatherunder the weatherHe was unable to attend the meeting because he was under the weather.She was standing under the weather during the storm.
+hom_1063taking offtaking offThe company's sales have been taking off this quarter, surpassing all expectations.She decided to take off a few days from work to travel.
+het_1053allawlHe gave his all to the team.He gave his awl to the apprentice.
+hom_1068recipe for disasterrecipe for disasterThe manager's plan to launch the product without testing is a recipe for disaster.The chef's new dish, titled "Recipe for Disaster," was meant to surprise the diners with unexpected flavors.
+het_1461evenlyEveShe handled the situation evenly, without showing any sign of distress.Eve was considered the first woman according to the Bible.
+het_1012ascentassentThe hiker began his ascent at dawn to reach the mountain's summit.After careful consideration, she gave her assent to the new proposal.
+het_1244featherfatherShe collected a colorful feather from the bird's plumage.During the ceremony, the father gave a heartfelt sermon.
+hom_677loglogThe scientist wrote detailed entries in her log each morning.The lumberjack struggled to lift the heavy log.
+het_488torquetalkThe engine generates high torque to rotate the gears.She will give a talk at the conference.
+hom_1513atmosphereatmosphereThe Earth's atmosphere is composed mainly of nitrogen and oxygen.The café has a cozy atmosphere in the evenings.
+hom_1349pointedpointedThe teacher asked several pointed questions to probe the students' understanding.He used his pointed index finger to indicate the correct answers on the board.
+het_829manicallymanaclesHe spoke manically during his presentation.The officer secured the suspect with manacles.
+het_1539crankcrackThe mechanic used a crank to start the engine.Farmers often begin their day at the crack of dawn.
+het_693razeraiseThe construction company decided to raze the abandoned warehouse.She plans to raise the funds needed for the new project.
+het_1304catarrhQatarHe was suffering from severe catarrh during the winter.She booked a flight to Qatar for her vacation.
+hom_608steal awaysteal awayHe decided to steal away from the meeting early.The writer was accused of trying to steal away ideas from other authors.
+Here is the requested -formatted output based on the provided pun:
+hom_1492runrunHe likes to run every morning to stay fit.She decided to run for office in the upcoming election.
+hom_1841on fireon fireThe pastor is on fire, passionately leading the congregation.The bonfire is on fire, providing warmth for roasting marshmallows.
+het_234patiencepatientsHe needs patience to deal with difficult situations.The clinic has many patients today.
+het_1031allowedaloudThe manager allowed the employees to work from home on Fridays.She read the poem aloud to the audience.
+het_1578wholeheartedlywholeheartedlyShe agreed wholeheartedly to the proposal.The artichoke grower tended to his plants wholeheartedly.
+hom_1596add upadd upThe math teacher asked the students to add up the numbers in the equation.His story didn't add up, raising suspicions among his colleagues.
+hom_563fallfallAfter slipping on the ice, he experienced a painful fall.The weather becomes chilly and leaves turn vibrant in the fall.
+het_602leerlearShe couldn't help but leer at the stranger.The company ordered a new Lear for their executive.
+hom_2012touchy subjecttouchy subjectRaising the issue of budget cuts is a touchy subject among the board members.Their relationship thrived on a touchy subject, often expressed through gentle physical affection.
+hom_1132rootsrootsShe was proud to rediscover her Italian roots.The gardener carefully examined the roots of the new saplings.
+hom_325accountaccountHe is of no account within the organization.She checked her bank account balance online.
+het_1033assaysayThey decided to assay the gold to determine its purity.She didn't know what to say in the situation.
+hom_2110drop overdrop overI plan to drop over to Lisa's house this evening to see her new painting.Be careful not to drop over the cliff while hiking at the edge.
+hom_1300sentencesentenceShe crafted a beautiful sentence for her essay.The judge handed down a harsh sentence to the defendant.
+hom_834crowncrownThe dentist placed a crown on my molar.The queen wore a golden crown during the ceremony.
+hom_1476ropedropedHe was roped into organizing the company event despite his busy schedule.During the rodeo, the cowboy successfully roped the calf.
+hom_1873cellcellThe prisoner's cell was small and cramped.The human body is composed of billions of cells.
+hom_655afraidafraidShe is afraid of spiders.He was afraid the book wouldn't help him.
+het_261fissurefisherThe earthquake created a wide fissure in the earth's surface.The fisher cast his net into the river.
+het_1590oddlyoddsShe spoke oddly during the interview.The odds of winning the game are low.
+hom_478pay attentionpay attentionPlease pay attention to the teacher during the lesson.They had to pay attention to secure the best seat at the concert.
+het_1699wastewaistPeople are taking measures to prevent food from going to waste.People are concerned that too much food is going to their waist.
+het_215ManuelmanualManuel is an experienced author.Please refer to the manual for detailed instructions.
+hom_301chick flickchick flickShe enjoys watching a chick flick on Friday nights.The farmer screened a chick flick documenting the growth of baby hens.
+hom_133doughdoughHe made a lot of dough last year, thanks to his successful business.She kneaded the dough for the bread.
+het_633sagesageTom spoke sage advice during the meeting.The stuffing recipe calls for fresh sage.
+het_1allegeda ledgeThe witness alleged that he saw the event occur.The hiker placed his hands on a ledge halfway up the mountain.
+hom_424knitknitShe decided to knit a warm blanket for the winter.He began to knit his eyebrows in concentration during the meeting.
+hom_1879bunbunShe styled her hair into a neat bun.The hot dogs were served in fresh buns.
+het_1398unalienableunalienableThe Constitution guarantees certain unalienable rights to every individual.The alien's unalienable presence made it a persistent threat to the city.
+het_428nothing butnothing buttShe wants nothing but the best for her children.He checked to ensure there was nothing butt on the back of the chair.
+het_692assashHe made an ass of himself during the presentation.After the fire, there was only ash left.
+hom_2051high spiritshigh spiritsAfter hearing the good news, she was in high spirits all day.The bar was well-stocked with high spirits from various distilleries.
+hom_1004stalkingstalkingThieves could be charged with stalking the garden owner.The corn plants have sturdy stalks that support the cobs.
+hom_246mouthfulmouthfulThe pharmaceutical company's new drug has a mouthful of a name.He tried to swallow a mouthful of pills.
+hom_245uprooteduprootedThe arborist had to uproot the old oak tree from the groundAfter the merger, several departments were uprooted from the company structure.
+het_1264cosigncosinePlease cosign the lease agreement to finalize the rental process.In the triangle, the cosine of the angle is equal to the adjacent side divided by the hypotenuse.
+hom_2072fishyfishyThe aroma of the freshly cooked salmon was undeniably fishy.The accountant found the sudden increase in expenses rather fishy.
+hom_941no change yetno change yetNo change yet in the project status.I checked my pockets, and there's no change yet.
+het_699fluefluThe fireplace needs a clean flue to prevent smoke from entering the room.She couldn't go to work because she was sick with the flu.
+hom_332onewonI would like one cup of tea.He won the championship last year.
+hom_2141accountingaccountingShe is studying accounting to become a certified public accountant.We are accounting for all factors to ensure the project's success.
+hom_2167baitbaitThe fisherman prepared the bait for his next trip.The sushi chef selected the freshest bait for the platter.
+hom_908shootsshootsThe garden is full of new shoots after the spring rains.The soldier shoots accurately during the training exercise.
+hom_132BillbillMy name is Bill.I received a bill from the collection agency.
+het_1106craftilyKraftHe handled the situation craftily.She prefers cheese from Kraft.
+het_1589act your ageact your wageIt is important to act your age when interacting with older colleagues.To avoid financial trouble, you should act your wage and spend within your income.
+het_1271breakingbrakingThe journalist reported the latest breaking news on the election results.The vehicle's braking system failed during the sharp turn.
+hom_810fretfretPlease do not fret about the upcoming exam.The guitar's neck has many frets to assist with playing.
+het_899upgradableupgradableThe new smartphone model is highly upgradable with additional memory and storage options.She believes that her professional skills are upgradable through continuous learning and training.
+hom_238committed peoplecommitted peopleCommitted people ensure the team meets its goals.The prison houses many committed people serving their sentences.
+hom_2224repossessedrepossessedAfter missing several payments, the bank repossessed his car.After the failed exorcism, she felt repossessed by malevolent spirits once again.
+hom_1360touchytouchyThe manager was touchy during the meeting, frequently adjusting his position. The discussion became touchy as team members debated the sensitive policy changes.
+het_1662sheepishlysheepishly"Tom sheepishly admitted he was embarrassed.""The farmer sheepishly herded the sheep into the pen."
+hom_1120troopertrooperThe trooper responded quickly to the emergency call.She remained a trooper despite the difficult circumstances.
+hom_701melonsmelonsThe fruit vendor sold fresh melons.She was known for having big melons.
+hom_1782follow throughfollow throughHe needs to follow through on his commitments.In golf, a proper follow through is essential for a good swing.
+het_119sonsunMy son is playing in the park.The sun is shining brightly today.
+het_519guestguessedWe invited a guest to our home for dinner.Tom guessed the outcome of the game correctly.
+hom_2089trunkstrunksElephants use their trunks to gather food.She changed into her trunks before swimming.
+hom_117daily grinddaily grindShe enjoys the daily grind of grinding her own coffee every morning.He feels overwhelmed by the daily grind of his 9-to5 job.
+hom_1647circulationcirculationProper blood circulation is essential for good health.The library's circulation increased significantly last year.
+hom_2126scalescaleThe laboratory scale measured the exact mass of the sample.The project was executed on a large scale to reach a wide audience.
+het_556planeplainThey boarded the plane to fly to New York.She prefers plain meals without any seasoning.
+het_1619ParkayparquetI like to spread Parkay on my toast.The ballroom has a beautiful parquet floor.
+hom_1328check outcheck outShe went to the library to check out a new book.They decided to check out of the hotel early in the morning.
+het_1581sumsunThe sum of 2 and 3 is 5.The sun rises in the east.
+hom_350planeplaneDuring meditation, she reached a higher plane of consciousness.The plane ascended to its cruising altitude of 35,000 feet.
+hom_1047checked outchecked outShe went to the library to check out several novels for her research.They decided to check out the new restaurant in town on Saturday.
+hom_979lousylousyThe restaurant received lousy reviews due to poor service.She couldn't attend school because her hair was lousy with lice.
+hom_2214springspringThe team needs to spring into action to meet the project deadline.The weather warms up during spring, allowing plants to grow.
+het_1388braid awayfade awayThe hairdresser will braid away the client's hair for the upcoming event.The memory of the old building began to fade away after years of neglect.
+het_1249algorithmrhythmThe mathematician explained the algorithm to solve the equation.The dancer moved in perfect rhythm with the music.
+het_1169sunsonThe sun is shining brightly today.Her son won the first prize.
+het_1206pecanpeckingI like to add pecan to my salad.She kept pecking at her sandwich during lunch.
+hom_324flukeflukeIt was a fluke that she won the lottery.The whale's fluke was visible above the water.
+hom_109boringboringI have a boring job reading reports.The technician was boring holes into the metal using the drill press.
+hom_1507hitchhitchHe had to hitch the horse to the carriage before driving off.The event proceeded without a hitch.
+hom_559RayrayRay is a skilled musician.The roentgenologist examined the patient's ray for fractures.
+hom_1060sentencesentencePlease write a complete sentence for your homework.The judge imposed a five-year sentence on the defendant.
+hom_1570recoveredrecoveredThe patient has fully recovered after the surgery.The upholsterer recovered the chair with new fabric.
+hom_1182fit infit inShe worked hard to fit in with her new colleagues at the office.He had to try on several pairs of shoes to ensure they fit in comfortably.
+het_196cometcommentThe astronomer studied the comet's trajectory through the solar system.The politician chose not to comment on the recent policy changes.
+hom_1565unstrungunstrungThe antique guitar was left unstrung for decades, requiring a complete restringing.After hearing the bad news, he felt completely unstrung and couldn't focus on anything else.
+hom_1877ERAeraThe pitcher's ERA dropped to 2.80 this season.The Renaissance era produced many great artists.
+hom_106flierflierHe designed a flier to advertise the upcoming event.As a skilled flier, she piloted the aircraft with ease.
+hom_378funnyfunnyThe comedian was really funny and had the audience laughing.The milk tastes funny after being left out overnight.
+het_1302purposesporpoisesThe seminars were organized for educational purposes.The seminars included presentations about various porpoises.
+het_1086actionscontractionsHer actions demonstrated her dedication to the team.During her pregnancy, she felt frequent contractions before labor.
+het_1029specialspatialShe has a special talent for painting.The spatial arrangement of the museum exhibits enhances visitor experience.
+hom_526blendedblendedThe artist blended different colors to create a harmonious palette.The chef blended the ingredients into a smooth milkshake.
+het_593SiriusseriousSirius is the brightest star in the night sky.She was very serious about her studies.
+het_1762altitudeattitudeThe airplane reached an altitude of 35,000 feet.She maintains a positive attitude in every situation.
+hom_1980attractiveattractiveThe magnet is highly attractive to iron and steel objects.She is very attractive and drew everyone's attention at the party.
+hom_1350chipperchipperAfter receiving the good news, Sarah felt chipper all day.The worker used a chipper to process the fallen branches into small chips.
+het_1372shipschipsSeveral ships sailed across the bay.I had fish and chips for dinner.
+hom_1077buckbuckThe buck gracefully leapt over the fence into the forest.She paid the coffee shop three bucks for her latte.
+hom_555sprucespruced upHe bought a spruce tree for his backyard.She spruced up her outfit for the party.
+hom_619drivedriveHe learned to drive a car when he turned sixteen.She perfected her drive to achieve greater distance on the golf course.
+hom_1196bondingbondingThe family enjoyed bonding during their vacation.The chemistry lesson focused on bonding between molecules.
+het_1268sinsignShe confessed her sin to the priest.He placed a sign at the entrance of the store.
+het_590rushrushI need to avoid the morning rush when the streets are crowded.I rush to finish my assignments before the deadline.
+het_201descentdecentHe belongs to a noble descent.She earns a decent wage.
+het_1278meddlinglymedalHe meddlingly interfered in their conversation.She was awarded a bronze medal in the competition.
+het_736peacepieceThe country has been enjoying peace for decades.She found the missing puzzle piece under the table.
+het_102mailmaleThe postmen sorted the mail every morning to ensure timely delivery.The group of friends engaged in male bonding activities during the weekend.
+hom_804plungeplungeShe decided to take the plunge and start her own business.The plumber had to plunge the drain to remove the clog.
+het_54awfuloffalThe weather today was awful due to the severe storm.The restaurant served various types of offal, including liver and tripe.
+het_923wildlyWildeShe danced wildly at the party, showing no restraint.Oscar Wilde was a renowned playwright.
+hom_1447flat rateflat rateThe internet service is billed at a flat rate every month.The mechanic charged a flat rate to fix my flat tire.
+het_1436callouslycallusTom spoke callously towards his teamAfter months of rowing, Tom developed a painful callus on his hand
+hom_569powerpowerThe manager's power increased after the successful project.The power in the building was restored after the outage.
+hom_81get the bootget the bootIf you continue to violate company policies, you will get the boot.All hikers need to get the boot before embarking on the trail.
+hom_221all rightall rightShe is all right with her new job.After the accident, he was all right.
+het_709bailbaleHe had to pay bail to be released from jail.The farmer stored the hay in a bale.
+hom_1404flapflapAfter receiving the unexpected news, she was in a flap for the rest of the day.They adjusted the flap of the tent to keep out the rain.
+het_153steakstakeHe ordered a juicy steak for dinner.The villagers used a stake to defend the town from vampires.
+het_1386bossedbussedThe manager bossed the team to meet the deadline.After dinner, the guests were bussed to their next tables.
+het_179upheldupheldThe judge upheld the lower court's decision.The pillars upheld the structure to prevent collapse.
+hom_547going downhillgoing downhillHis performance is going downhill since last year.They spent the afternoon going downhill on the ski slopes.
+hom_1449dealt withdealt withThe manager said he would deal with the issue immediately.In the card game, each player was dealt with five cards.
+het_283batbatThe baseball player swung the bat with great strength.The bat flew out of the cave at dusk.
+hom_1020absorbedabsorbedShe was completely absorbed in her work.The sponge effectively absorbed the spilled liquid.
+het_1193beeBI saw a bee collecting nectar from the flowers.She received a B on her exam.
+hom_107lablabThe scientist conducted experiments in the lab.He took his lab for a walk every morning.
+hom_1419brushing offbrushing offThe manager was brushing off the employee's concerns.The dentist was brushing off the patient's teeth.
+hom_211strokesstrokesShe used little strokes of effort to achieve her goals.He delivered little strokes to fell the great oaks.
+hom_1462pocketpocketShe decided to pocket her earnings to save for a new bicycle.The mother kangaroo kept her joey safely in her pocket.
+hom_1136concentrationconcentrationShe needs to improve her concentration to excel in her studies.The factory produces concentrated orange juice by removing excess water.
+hom_354submergedsubmergedThe submarine submerged beneath the ocean surface.She was submerged in her work and couldn't find time to relax.
+het_58springs to mindsprings to mineA creative solution springs to mind during the brainstorming session.The Claymore weapon springs to mine when activated.
+hom_2208stickstickThe manager always sticks to their word, ensuring all promises are fulfilled.The carpenter used glue to make the pieces stick together firmly.
+hom_1010reflectivereflectiveThe student was very reflective about his career choices.The reflective surface of the mirror shone brightly.
+hom_1861growing on megrowing on meI initially didn't enjoy the movie, but it's growing on me.My hair is growing on me after the haircut.
+hom_1113plumbplumbShe was plumb loco after the incident.He had to plumb the well to determine its depth.
+hom_1027baggagebaggage"Please place your baggage in the overhead compartment.""She struggled to let go of her emotional baggage."
+hom_736start from scratchstart from scratchThey decided to start from scratch and build the project from the ground up.The car sustained a scratch, so they had to start from scratch with the repairs.
+hom_2133carry a lot of weightcarry a lot of weight"Her opinion carries a lot of weight in the decision-making process.""The elephant carries a lot of weight as it moves through the forest."
+hom_1114foundationfoundationThe foundation of her career was her extensive training in geology.The building's foundation required deep excavation to ensure stability.
+hom_1866blowblowShe felt a warm blow of air as the wind passed by.The boxer delivered a powerful blow to his opponent's jaw.
+hom_2122check outcheck outAfter scanning all her items, she went to the register to check out.After a long day, he decided to check out early.
+het_825packplaqueHe was elected as the leader of the pack during the hiking expedition.Regular brushing helps to remove plaque from your teeth.
+hom_2076stroke of geniusstroke of geniusHer presentation was truly a stroke of genius, captivating the entire audience.Using a fine brush, the artist made a delicate stroke of genius on the canvas.
+het_100lionlineThe lion roamed freely in the zoo.The phone line was busy during the call.
