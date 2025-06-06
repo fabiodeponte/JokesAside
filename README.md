@@ -6,7 +6,8 @@ Large language models have significantly enriched the toolkit for computational 
 
 The paper is available here: https://github.com/fabiodeponte/JokesAside/blob/main/fdp%20-%20paper%20-%20Jokes%20Aside.pdf
 
-Update June 6th 2025: The paper was awarded the GSA award and will be presented during a special plenary session at the ISHS conference.
+UPDATE JUNE 6TH 2025: The paper was awarded the GSA AWARD and will be presented during a special plenary session at the ISHS conference.
+
 
 
 == NOTE: ==
