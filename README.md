@@ -4,6 +4,8 @@ Large language models have significantly enriched the toolkit for computational 
 
 (Abstract from the paper submitted to the ISHS conference, Kraków, Poland. 7-11 July 2025 - https://ishs2025.pl)
 
+The paper is available here: https://github.com/fabiodeponte/JokesAside/blob/main/fdp%20-%20paper%20-%20Jokes%20Aside.pdf
+
 Update June 6th 2025: The paper was awarded the GSA award and will be presented during a special plenary session at the ISHS conference.
 
 
