@@ -9,7 +9,7 @@ Large language models have significantly enriched the toolkit for computational 
 
 --> THE PRESENTATION: https://github.com/fabiodeponte/JokesAside/blob/main/presentation.pdf
 
---> UPDATE JUNE 6TH 2025: The paper was awarded the GSA AWARD and will be presented during a special plenary session at the ISHS conference.
+--> The paper was awarded the GSA AWARD and was presented during a special plenary session at the ISHS conference.
 
 --> NOTE: The largest CSV files were removed from here due to space contraints. The missing datasets can be found on Kaggle, where the entire project was compressed and uploaded:
 https://www.kaggle.com/datasets/fabiodeponte/the-complete-humour-project-jokes-aside
